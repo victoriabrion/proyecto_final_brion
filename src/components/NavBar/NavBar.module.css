@@ -1,0 +1,52 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin-bottom: 100px;
+}
+
+.nav {
+    padding-right: 40px;
+    margin-right: 40px;
+    color: pink;
+
+}
+
+.boton {
+    margin: 50px;
+    height: 30px;
+    width: 30px;
+    color: pink;
+
+ 
+    &:hover {
+        transform: scale(1.1);
+        color: pink;
+    }
+   
+}
+
+.active {
+    margin: 50px;
+    height: 30px;
+    width: 30px;
+    text-decoration: underline;
+    text-decoration-color: rgba(17, 1, 1, 0.445);
+    &:hover {
+        transform: scale(1.1);
+        color: pink;
+    }
+  
+}
+
+
+
+
+.title{
+    font-size: 70px;
+    margin: 100px;
+    padding: 50px;
+    color: rgba(0, 0, 0, 0.808);
+}

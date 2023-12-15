@@ -1,0 +1,46 @@
+.title{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.category {
+    font-size: smaller;
+}
+
+.description{
+    font-size: medium;
+}
+
+.price{
+    font-size: medium;
+    color: black;
+}
+
+.id {
+font-size: smaller;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.addandrest {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+ 
+}
+
+.goToCart {
+   color:whitesmoke;
+   font-size: larger;
+ 
+   &:hover {
+   color: pink;
+   }
+}

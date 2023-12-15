@@ -1,0 +1,42 @@
+.padrecard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: 30px;
+    background-color: grey
+   
+}
+
+.link {
+    color: black;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    
+}
+
+.articulo {
+    font-size: 20px;
+    color: rgba(11, 75, 236, 0.774)
+
+}
+
+.stock {
+    font-size: medium;
+    margin: 0;
+}
+
+.info {
+    margin-bottom: 10px;
+    height: 30px;
+    font-size: small;
+    color: black;
+    }
+
